@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html>
+	
+	<head>
+		<title>Página principal</title><!-- Título do site-->
+		<meta charset="utf-8"><!-- Tipo de caracter a ser usado. UTF-8 permite a utilização de acentuação-->
+	</head>
+
+	<body>
+
+		<h2>Produtos</h2>
+
+		<table border="2" width="100%"> <!--table = tabela(inicia tabela). border = borda(define o tamanho da borda). width = largura(define altura das células).-->
+
+			<tr><!--Table row = linha da tabela-->
+				<th>Código</th><!--Table Header = Cabeçalho da tabela-->
+				<th>Produto</th><!--Table Header = Cabeçalho da tabela-->
+				<th>Preço</th><!--Table Header = Cabeçalho da tabela-->
+			</tr>
+
+			<tr>
+				<td>001</td><!--table data = dados da tabela-->
+				<td>Nootbook</td><!--table data = dados da tabela-->
+				<td>R$2500,99</td><!--table data = dados da tabela-->
+			</tr>
+
+			<tr>
+				<td>002</td><!--table data = dados da tabela-->
+				<td>Tablet</td><!--table data = dados da tabela-->
+				<td>R$999,00</td><!--table data = dados da tabela-->
+			</tr>
+
+			<tr>
+				<td rowspan="2">Desconto</td><!--rowspan = extensão da linha-->
+				<td colspan="2">cupom1 - R$10,00</td><!--colspan = extensão da coluna-->
+			</tr>
+
+			<tr>
+				<td colspan="2">cupom2 - R$12,00</td><!--colspan = extensão da coluna-->
+			</tr>
+
+			<tr>
+				<td>Total:</td>
+				<td colspan="2">R$3478,98</td><!--colspan = extensão da coluna--> 
+			</tr>
+
+		</table>
+	</body>
+
+</html>
