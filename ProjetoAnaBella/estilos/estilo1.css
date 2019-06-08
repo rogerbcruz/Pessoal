@@ -6,6 +6,10 @@ body {
 	width: 900px;
 
 }
+
+#menu{
+	background-color: #c5c5b2;
+}
 .link {
 	color: black;
 	background-color: #CDC009;
