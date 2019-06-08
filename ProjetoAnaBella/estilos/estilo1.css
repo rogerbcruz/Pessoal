@@ -1,0 +1,28 @@
+body {
+		background: #d2d2c1 url("imagens/fundo.png");		
+	}
+#principal{
+	border: 0px solid red;
+	width: 900px;
+
+}
+.link {
+	color: black;
+	background-color: #CDC009;
+}
+
+.titulo {
+	color: #a15b15c1;
+	font-size: 20px;
+	font: bold;
+}
+
+.texto {
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.rodape{
+	color: black;
+	font-variant-position: center center;
+}
