@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Elementos flutuantes</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+
+			#principal {
+				border: 1px solid red;
+				background: green;
+			}
+
+			.conteudo {
+				background: blue;
+				border: 1px;
+				width: 200px;
+				height: 200px;
+				float: right;
+				margin: 10px;
+			}
+
+			/*
+			.conteudo1 {
+				background: red;
+				border: 1px;
+				width: 200px;
+				height: 200px;
+				float: left;
+				margin: 10px;
+			}		
+*/
+
+			.clear{
+				clear: both;
+			}
+		</style>
+	</head>
+	<body>		
+		
+		<div id="principal">
+			<div class="conteudo">
+				conteudo1
+			</div>
+			<div class="conteudo">
+				conteudo2
+			</div>
+			<div class="conteudo">	
+				conteudo3
+			</div>
+
+			<p class="clear">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis tristique tincidunt. Vivamus pharetra cursus diam eu tempor. Maecenas metus ex, tincidunt in mauris nec, tristique venenatis est. Sed nec sagittis lorem. Proin elementum tempus orci, eget egestas libero congue finibus. Vivamus eget orci nisi. Integer a consequat sapien. Nam tempor urna vel suscipit faucibus. Morbi sit amet libero tortor. Duis ut pellentesque dolor. Phasellus gravida, sem eu auctor blandit, nulla mi posuere elit, quis faucibus nulla ligula et ante. Aenean maximus nulla nibh, vel ultrices quam venenatis quis. Praesent pellentesque nisi eu rutrum tempus. Nullam convallis bibendum lectus ut gravida. Quisque suscipit justo diam, ac mattis ex interdum ullamcorper.
+			</p>
+			<!--<div class="clear">asdsads</div>--> <!--Classe clear limpará o fluxo flutuante--> 
+		</div>
+		
+
+	</body>
+</html>
