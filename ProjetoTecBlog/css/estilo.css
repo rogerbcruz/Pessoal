@@ -13,6 +13,58 @@ h1 {
 	font-size: 2em;
 }
 
+
+/*
+***configuração de Layout
+*/
+#area-cabecalho {
+	background-color: #f7b600;
+	padding-top: 15px;
+	text-align:center;
+}
+
+#area-logo, #area-menu{
+	padding: 10px;
+}
+
+#area-principal {
+	background-color: white;
+	width: 920px;
+	margin: 0 auto;/*Margens laterais automatias*/
+}
+#area-postagens, #area-lateral{
+	background: orange;
+}
+
+#area-postagens{
+	width: 660px;
+	float: left;
+}
+
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+#rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px
+	background: #CCC;
+
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+
+.branco{
+	color: #fff;
+}
+
 /*
 ****Formatação dos menus
 */
@@ -35,18 +87,4 @@ a:hover {
 
 a:active{
 	color: black;
-}
-
-#area-cabecalho {
-	background-color: #f7b600;
-	padding-top: 15px;
-	text-align:center;
-}
-
-#area-logo, #area-menu{
-	padding: 10px;
-}
-
-.branco{
-	color: #fff;
 }
