@@ -1,0 +1,62 @@
+/*Barra de navegação horizontal*/
+/*
+ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 5px 20px;
+	background: url(../recursosDeAula/arquivos-necessarios-barra-navegacao-vertical/seta.png) no-repeat left center;
+}
+
+*/
+/*Retirando formatações da lista e inserindo novas formatações*/
+ul {
+	margin: 0;/*retirando a margem padrão da lista*/
+	padding: 0;/*retirando margem interna da lista*/
+	list-style: none;/*retirando marcadores/tabulação de lista*/
+	width: 720px;/*definindo altura em pixels dos campos da lista*/
+	background: #159cb0 url(../arquivos-necessarios-navegacao-horizontal/fundo-horizontal.png) 
+	/*inserindo imagem na lista e caso não carregue a imagem definindo uma 
+	cor padrão no lugar da imagem*/
+	repeat-x;/*definindo repetição da imagem apenas no eixo x */
+	float: left;/*definindo comportamento da lista no documento(flutuante à esquerda)*/
+}
+
+ul li {
+	float:left;/*ddefinindo comportamento do item da lista no documento(flutuante à esquerda)*/
+	
+}
+
+ul a{
+	text-decoration: none;/*exclui as decorações do texto. Ex: sub-linhado do link*/
+	display: block;/*modifica o fluxo do documento(altera o modo como os elementos 
+	se comportarão na página. Em linha ou em Bloco.*/
+	padding: 0 2em;
+	line-height: 2.2em;/*usa a proria linha com base no tamanho da fonte*/
+	color: #fff;
+	background: url(../arquivos-necessarios-navegacao-horizontal/divisor.png)/*insere uma 
+	imagen de fundo no css */ 
+	repeat-y left top;/*Define como se repetirá a imagem dentro do background*/
+}
+
+ul .primeiro a {/*Modifica um link que esteja dentro de uma ul com definição de 
+	class="primeiro"*/
+	background: none;/*retira as formatações anteriores do bacground*/
+}
+ul a:hover {/*insere comportamento do elemento link ao passar o mouse em cima*/
+		color:#085662;
+		background: #44cade
+}
+/*Marcações de página aberta, usando id e classe*/
+#home #navegacao .home a, 
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+	color:#085662;
+	background: #44cade	
+}
