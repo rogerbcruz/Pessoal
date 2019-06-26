@@ -1,0 +1,97 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container {/*Define as demensões gerais do container */
+	width: 85%;/*720px*//*Em % define o percentual da tela a ser usada e ela vai se adequando ao
+	browser.*/
+	margin: 0 auto;
+	background: #fff;
+	min-width: 800px;/*Define um tamanho minimo para o conteúdo, 
+	não permitindo quebra de texto*/
+	/*max-width: 960px;*/
+
+}
+
+#marca {/*Define dimensões e posição do banner*/
+	width: 100%;
+	height: 200px;
+	background: #225992 url(../imagens/cabecalho2.jpg) no-repeat center;
+	text-align: center;
+	line-height: 200px;
+}
+
+#conteudo {/*Define dimensões e posição do conteudo*/
+	width: 75%;/*520px -> 74.28*/
+	float: right;
+}
+
+#navegacao {/*Define dimensões, posição e formatação do countúdo navagacao*/
+	width: 23%;/*180px ->25.71*/
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #d1d1d1;
+}
+
+#conteudo-principal {/*Define dimensões e posição do conteudo-principal*/
+	width: 63%;/*320px -> 64%*/
+	float: left;
+	border: 1px solid red;
+}
+
+img.img-noticia {
+	border: 1px solid red;
+	width: 94%;
+	padding: 2%;
+	max-width: 600px;
+}
+
+#conteudo-secundario{/*Define dimensões e posição do conteudo-secundario*/
+	width: 34%;/*180px -> 36%*/
+	float: right;
+	background: #d1d1d1;
+}
+
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {/*define todas as dimensões para todos os seletores selecionados 
+	dentro do id="conteudo-secundario".*/
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+#rodape {/*Define dimensões, posição e formatação do countúdo rodape*/
+	clear: both;
+	background: #c4c4c4
+	padding: 5px;
+}
+
+#navegacao ul { /*Formata e define posição de listas não ordenadas no id="navegacao".*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#navegacao ul a{/*Formata e define posição dos links que estejam com id="navegacao".*/
+	text-decoration: none;
+	color: #fff;
+	line-height: 2em;
+}
+
+#navegacao ul a:hover {/*altera a cor do link quando o mouse se posiciona no mesmo.*/
+	color: green;
+}
+/*
+#imagem {
+	width: 90%;
+	border: 1px solid red;
+	overflow: hidden;
+}
+*/
