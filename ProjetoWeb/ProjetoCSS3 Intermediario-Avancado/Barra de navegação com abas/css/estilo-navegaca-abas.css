@@ -1,22 +1,22 @@
 /*Barra de navegação com abas*/
 
 body{
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;/*definindo família da fonte*/
 }
 
-ul {
+ul {/*retirando formarações padrão da lista não ordenada*/
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	width: 720px;
 }
 
-ul li {
+ul li {/*inserindo imagem e alterando o fluxo da lista não ordenada no documento*/
 	float: left;
 	background: url(../imagens/aba-direita.png) no-repeat top right;
 }
 
-li a{
+li a{/*inserindo imagem e formatando a caixa e texto do link */
 	display: block;
 	padding: 0 2em;
 	line-height: 3em;
@@ -25,14 +25,14 @@ li a{
 	color: #fff;
 }
 
-ul a:hover{
+ul a:hover{/*definido cor quando posicionar o mouse no link*/
 	color: #894a1f
 }
 
-ul #atual{
+ul #atual{/*definindo marcação com imagem alterada da lista não ordenada*/
 	background: url(../imagens/aba-direita-atual.png) no-repeat top left;
 }
 
-ul #atual a{
+ul #atual a{/*definindo marcação com imagem alreara do link*/
 	background: url(../imagens/aba-esquerda-atual.png) no-repeat top left;+
 }
