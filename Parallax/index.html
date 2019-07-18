@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Parallax</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			/*configuração padrão da página
+			******************************/
+			body,html {
+				margin: 0;
+				font:16px "Lato", sans-serif;
+				color: #777;
+				height: 100%;/*parallax*/
+			}
+
+			.conteudo{
+				color: #777;
+				background-color: white;
+				text-align: justify;
+				padding: 50px 80px;
+			}
+			
+			h3 {
+				text-transform: uppercase;
+				color: #111;
+				text-align: center;
+			}
+			/*Efeito parallax
+			****************/
+			.caixa1, .caixa2 {
+				border: 1px solid red;
+				height: 100%
+			}
+
+			.caixa1 {
+				background-image: url(imagens/imagem1.jpg);
+			}
+
+			.caixa2 {
+				background-image: url(imagens/imagem2.jpg);
+			}
+
+
+
+		</style>
+	</head>
+	<body>
+
+		<div class="caixa1">
+			Caixa 1
+		</div>
+
+		<div class="conteudo">
+			<h3>Parallax</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum felis tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vitae dictum odio. Donec at enim ultricies, consequat tortor vel, feugiat odio. Curabitur elementum quis est at rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+			</p>
+		</div>
+
+		<div class="caixa2"> 
+			Caixa 2
+		</div>
+
+
+	</body>
+</html>
